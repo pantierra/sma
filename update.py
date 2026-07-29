@@ -14,7 +14,7 @@ etfs = pd.read_csv("etfs.csv")
 
 def download_history(code):
 
-    url = f"{BASE_URL}/eod/{code}.EUR"
+    url = f"{BASE_URL}/eod/{code}"
 
     params = {
         "api_token": API_KEY,
